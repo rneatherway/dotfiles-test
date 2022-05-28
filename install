@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git clone \
+    --branch 3.2.1 \
+    --depth 1 \
+    https://github.com/TheLocehiliosan/yadm.git
+
+yadm/yadm clone \
+          https://github.com/rneatherway/dotfiles-yadm.git \
+          --bootstrap
